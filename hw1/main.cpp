@@ -12,7 +12,7 @@ int main()
         return x < y;
     };
 
-    quicksort(a, 0, a.size() - 1, compInt);
+    mySort(a, 0, a.size() - 1, compInt);
 
     for (int x : a)
         std::cout << x << " ";
@@ -30,7 +30,7 @@ int main()
     
     };
     
-    quicksort(points, 0, points.size() - 1, compPoint);
+    mySort(points, 0, points.size() - 1, compPoint);
     
     for (Point p : points)
     {

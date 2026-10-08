@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 template <typename T, typename Compare>
-void quicksort(std::vector<T>& a, int left, int right, Compare comp)
+void mySort(std::vector<T>& a, int left, int right, Compare comp)
 {
     
     if (left >= right)
@@ -34,8 +34,8 @@ void quicksort(std::vector<T>& a, int left, int right, Compare comp)
 
         
     }
-    quicksort(a, left, j, comp);
-    quicksort(a, i, right, comp);
+    mySort(a, left, j, comp);
+    mySort(a, i, right, comp);
 
 
 }
