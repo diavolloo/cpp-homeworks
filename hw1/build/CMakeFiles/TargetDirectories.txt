@@ -1,0 +1,4 @@
+C:/cpp/cpp-homework/hw1/build/CMakeFiles/hw1_tests.dir
+C:/cpp/cpp-homework/hw1/build/CMakeFiles/hw1_bench.dir
+C:/cpp/cpp-homework/hw1/build/CMakeFiles/ALL_BUILD.dir
+C:/cpp/cpp-homework/hw1/build/CMakeFiles/ZERO_CHECK.dir

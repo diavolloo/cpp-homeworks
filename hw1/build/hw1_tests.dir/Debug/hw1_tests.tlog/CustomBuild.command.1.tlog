@@ -1,0 +1,10 @@
+^C:\CPP\CPP-HOMEWORK\HW1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/cpp/cpp-homework/hw1 -BC:/cpp/cpp-homework/hw1/build --check-stamp-file C:/cpp/cpp-homework/hw1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
